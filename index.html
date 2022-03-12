@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <meta charset="UTF-8" />
-    <title>I AM INGLISH</title>
+    <title>I  AM  INGLISH</title>
   </head>
      <body>
          <!--  navigation  -->
@@ -85,6 +85,7 @@
 
         <!--Contact info-->
         <section id="contact-me" class="contact">
+            
             <h2 class="section-title secondary-border">Contact me</h2>
             <div class="contact-info">
                 <p>
@@ -99,16 +100,26 @@
                 </address>
             </div>
 
+            <section class="contact"></section>
             <div class="contact-form">
                 <h3>Contact Me</h3>
+                <p>Fill out this form and I will be in contact with you</p>
                 <form>
-                    <label for="contact-name">Your Name</label>
-                    <input type="text" id="contact-name" placeholder="Your Name"/>
+                    <label for="contact-name">Enter your name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" class="form input"/>
+
+                    <label for="contact-email">Enter your Email address</label> 
+                    <input type="email" id="contact-email" placeholder="Your Email" name="email" class="form-input"/>
+                
+                    <label for="phone">Enter your telephone number:</label>
+                    <input type="tel" id="contact-telephone" name="phone" placeholder="phone" class="form-input">
 
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="Messsage"></textarea>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit">
+                        Submit
+                    </button>
                 </form>
             </div>
 
