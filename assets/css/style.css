@@ -5,8 +5,9 @@
 }
 
 header {
+        
         padding: 100px 35px;
-        background-color: darkcyan;
+        background-color: rgb(133, 174, 209);
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -19,7 +20,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size:  60px;
-    color:midnightblue;
+    color:rgb(133, 174, 209);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
@@ -27,7 +28,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: midnightblue;
+    color: rgb(37, 101, 139);
 }
 header nav {
     margin: 7px 0;
@@ -49,7 +50,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover  {
-    background: darkcyan;
+    background: rgb(133, 174, 209);
     color: black;
     border-radius: 15px;
     text-shadow: none;
@@ -62,6 +63,7 @@ header nav ul li a:hover  {
     font-size: 26px;
     margin: 0 auto;
     padding: 100px 35px;
+    background-color: azure;
 
 }
 .intro  {
@@ -79,16 +81,16 @@ header nav ul li a:hover  {
 
 .section-title {
     font-size: 60px;
-    color: darkcyan;
+    color: rgb(133, 174, 209);
     border-bottom: 3px solid;
 }
 
 .primary-border  {
-    border-color: darkcyan;
+    border-color:rgb(133, 174, 209) ;
 }
 
 .secondary-border  {
-    border-color: darkcyan;
+    border-color: rgb(133, 174, 209);
 }
 
 .section-title  {
@@ -97,7 +99,7 @@ header nav ul li a:hover  {
     padding:  0 100px 20px 100px;
     border-bottom: 3px solid;
     margin-bottom: 35px;
-    color:midnightblue;
+    color:rgb(37, 101, 139);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -106,8 +108,8 @@ header nav ul li a:hover  {
 
 .workprojects  {
     margin: 20px;
-    background: darkcyan;
-    color: midnightblue;
+    background: rgb(133, 174, 209);
+    color: rgb(37, 101, 139);
     flex: 1;
     padding: 100px 35px;
 
@@ -118,17 +120,19 @@ header nav ul li a:hover  {
 }
 
 .projects  {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: nowrap;
+    
+    width: 30%;
+    margin:  10px 10px 10px 10px;
+    flex: flex-start;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
+    flex-direction: row;
    
 }
 
 .projects h3  {
     font-size: 50px;
-    color:midnightblue;
+    color:rgb(37, 101, 139);
     text-align: center;
     
 }
@@ -140,7 +144,7 @@ header nav ul li a:hover  {
       padding:  0 100px 20px 100px;
       border-bottom: 3px solid;
       margin-bottom: 35px;
-      color: midnightblue;
+      color: rgb(37, 101, 139);
       padding-bottom: 20px;
       text-align: center;
       margin: 0 auto 35px auto;
@@ -150,12 +154,12 @@ header nav ul li a:hover  {
 
 
 .contact  {
-    background: midnightblue;
+    background: rgb(37, 101, 139);
     padding: 100px 35px;
 }
 
 .contact h2  {
-    color: darkcyan;
+    color: rgb(133, 174, 209);
 }
 
 .contact-info iframe  {
@@ -187,7 +191,7 @@ header nav ul li a:hover  {
 }
 
 .contact-info a  {
-    color: darkcyan;
+    color: rgb(133, 174, 209);
 }
 
 .contact-info >   {
@@ -200,7 +204,7 @@ header nav ul li a:hover  {
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: darkcyan;
+    color: rgb(133, 174, 209);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -216,8 +220,8 @@ header nav ul li a:hover  {
 .contact-form button  {
       width: 100%;
       border: none;
-      background: darkcyan;
-      color: midnightblue;
+      background: rgb(133, 174, 209);
+      color: rgb(37, 101, 139);
       text-align: center;
       padding: 15px 0;
       font-size: 16px;
@@ -225,8 +229,8 @@ header nav ul li a:hover  {
 }
 
 .contact-form button :hover  {
-      color: midnightblue;
-      background: darkcyan;
+      color: rgb(37, 101, 139);
+      background: rgb(133, 174, 209);
 }
 
 .form-input  {
@@ -245,13 +249,13 @@ header nav ul li a:hover  {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    color: darkcyan;
+    color: rgb(133, 174, 209);
     
     
 }
 
 .contact p  {
-    color: darkcyan;
+    color: rgb(133, 174, 209);
 }
 
 .form p  {
@@ -261,12 +265,13 @@ header nav ul li a:hover  {
 .form {
     background-color: black;
     padding: 20px;
-    color: midnightblue;
+    color: rgb(37, 101, 139);
     width: 40%;
-    margin: 3.5%;
+    margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
-    background-color: cadetblue;
+    background-color: rgb(133, 174, 209);
     border-radius: 15px;
+    justify-content: center;
 
 }
 
@@ -281,11 +286,11 @@ header nav ul li a:hover  {
 }
 
 .form-input {
-    border: 1px solid darkcyan;
+    border: 1px solid rgb(133, 174, 209);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: midnightblue;
+    color: rgb(37, 101, 139);
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -296,7 +301,7 @@ header nav ul li a:hover  {
 }
 
 .contact-form button  {
-    color: darkcyan;
+    color: rgb(133, 174, 209);
     background-color: white;
     border: none;
     padding: 10px 20px;
@@ -307,7 +312,7 @@ header nav ul li a:hover  {
 
 .form button :hover  {
     color: black;
-    background: midnightblue;
+    background: rgb(133, 101, 139);
 }
 
 
@@ -324,10 +329,11 @@ header nav ul li a:hover  {
 
 
 footer h2{
-    background:  midnightblue;
+    background:  rgb(37, 101, 139);
     width: 100%;
     padding: 40px 35px;
-    color: darkcyan;
+    color: rgb(133, 174, 209);
+    
 }
 
 
