@@ -4,7 +4,8 @@
 A website that shows Inglish Foust portfolio.
 
 ##  Screenshot
-C:\Users\User\Desktop\iaminglish\images\Screenshot (8).png
+![AltText](./images/Screenshot.png)
+
 
 ## Built With
 * HTML
