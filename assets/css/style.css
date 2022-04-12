@@ -116,18 +116,21 @@ header nav ul li a:hover  {
 }
 
 .project img  {
-    width: 100%;
+    max-width: 90%;
 }
 
 .projects  {
-    
-    width: 30%;
+    display: flex;
     margin:  10px 10px 10px 10px;
-    flex: flex-start;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
    
+}
+
+.projects div {
+    width: 30%;
+    margin: 20px;
 }
 
 .projects h3  {
