@@ -6,8 +6,8 @@
 
 header {
         
-        padding: 100px 35px;
-        background-color: rgb(133, 174, 209);
+        padding: 300px 35px;
+        /* background-color: rgb(133, 174, 209); */
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -15,6 +15,23 @@ header {
         top: 0;
         
 }
+
+.top-header {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/ocean.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile  { 
+    vertical-align: center;
+    /* margin-left: 50px; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+} 
 
 
 header h1 {
@@ -28,7 +45,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: rgb(37, 101, 139);
+    color: rgb(199, 213, 221);
 }
 header nav {
     margin: 7px 0;
