@@ -4,7 +4,7 @@
 A website that shows Inglish Foust portfolio.
 
 ##  Screenshot
-![AltText](./images/Screenshot.png)
+![AltText](./assets/images/Screenshot44.png)
 
 
 ## Built With
