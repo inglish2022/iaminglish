@@ -141,32 +141,41 @@ header nav ul li a:hover  {
 
 
 .main-project img{
-    max-width: 100%;
+    max-width: 80%;
+    border-radius: 20px;
+   
     
 }
 
 .main-project  {
     display: flex;
-    margin: 5px
+    margin: 5px;
+    align-items: center;
 }
 
 
 
 h3  {
-    font-size: 60px;
+    font-size: 50px;
     color:rgb(37, 101, 139);
     text-align: left;
     
 }
 .main-project div {
     width: 30%;
-    margin: 20px
+    /* margin: 20px; */
+    margin:  10px 10px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
 }
 
 
 
 .project img  {
     max-width: 90%;
+    border-radius: 20px;
 }
 
 .projects  {
